@@ -10,14 +10,14 @@ public class EvenOddArray {
 		System.out.println("Even number ");
 		for(int i=0;i<a.length;i++) {
 			
-			if (a[i]%2==0) {
+			if (a[i]%2==0) { // checking the even number
 			System.out.println(a[i]);
 			}
 			
 		}
 		System.out.println("Odd number ");
 		for(int i=0;i<a.length;i++) {
-			if(a[i]%2!=0) {
+			if(a[i]%2!=0) {			// checking the odd number
 				System.out.println(a[i]);
 			}
 			
